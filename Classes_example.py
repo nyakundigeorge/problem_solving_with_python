@@ -61,6 +61,8 @@ class Fraction:
 
         return Fraction(upper_1//common_one, lower_1//common_one)
 
+        # https://www.google.com/search?q=comparing+fractions&oq=comparing+fractions&aqs=chrome..69i57j0l5.3970j0j4&sourceid=chrome&ie=UTF-8#kpvalbx=1
+
     def __gt__(self,to_compare):
         left_side = self.num * to_compare.den
         right_side = self.den * to_compare.num
