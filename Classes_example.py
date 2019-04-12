@@ -76,6 +76,13 @@ class Fraction:
         return True if left_side < right_side else  False
 
 
+    def get_num(self):
+        return self.num
+
+    def get_den(self):
+        return self.den
+
+
    
 
 
@@ -97,3 +104,5 @@ print("Division: \t" + str(f1) +" and " + str(f2) +" = " +str(f4))
 print("Subtraction: \t" + str(f1) +" and " + str(f2) +" = " +str(f5))
 print("Comparison: \t" + str(f1) +" > " + str(f2) +" = " +str(f6))
 print("Comparison: \t" + str(f1) +" < " + str(f2) +" = " +str(f7))
+
+
